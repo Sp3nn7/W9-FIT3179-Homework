@@ -29,7 +29,8 @@
         "color": {
             "field": "count",
             "type": "quantitative",
-            "title": "Amount of Terrorist Attacks"
+            "title": "Amount of Terrorist Attacks",
+            "scale": {"scheme": "reds"}
         },
 
             "tooltip": [
