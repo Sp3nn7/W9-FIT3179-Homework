@@ -13,4 +13,5 @@ h1{
 h2{
     font: 1em sans-serif;
     font-size: medium;
+    display: block;
 }

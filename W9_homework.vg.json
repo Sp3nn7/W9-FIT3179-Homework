@@ -3,7 +3,7 @@
     "view": {"fill": "lightblue"},
     "width": 800,
     "height": 450,
-    "projection": {"type": "equalEarth"},
+    "projection": {"type": "equirectangular"},
     "layer": [
     {
 
@@ -38,7 +38,7 @@
         "color": {
             "field": "count",
             "type": "quantitative",
-            "title": "Amount of Terrorist Attacks",
+            "title": "# of Terrorist Attacks Per Country",
             "scale": {"scheme": "reds"}
         },
 
@@ -47,7 +47,7 @@
         "tooltip": [
             {"field": "region_txt", "type": "nominal", "title": "Region"},
             {"field": "country_txt", "type": "nominal", "title": "Country"},
-            {"field": "count","type": "quantitative","title": "Amount of Terrorist Attacks"},
+            {"field": "count","type": "quantitative","title": "Amount of Terrorist Attacks in Country"},
             {"field": "city", "type": "nominal", "title": "City"}
         ]
         }
